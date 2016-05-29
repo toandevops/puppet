@@ -1,0 +1,18 @@
+{
+  "Gemfile": "dbc1a15e3a264c03878028240cfc5d89",
+  "README.md": "154dd269677b3e00f8f40d67e00cbe89",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "manifests/init.pp": "86b508a2a23d4d0a84c40b1d49a783dd",
+  "manifests/packages/base.pp": "a15d8005e66bcee3e6cd8fc6b50cef14",
+  "manifests/repositories/centos.pp": "f5c7f636d6671cc05a20bc8db7d5bbac",
+  "manifests/repositories/jenkins.pp": "42b89a553dd569dd16517f852f4308a0",
+  "manifests/repositories/nodejs.pp": "6fee0dfd7b741942e53436ff78ba7823",
+  "manifests/repositories/puppet.pp": "dec69ff2b8e735d2ce029dcecd7b934d",
+  "manifests/services/services.pp": "21eb35c9894bc779f65773bee806c145",
+  "manifests/wrapper/global.pp": "d38ec2cd3fd3cfc894a687ab1f68a2f1",
+  "manifests/wrapper/jemalloc.pp": "18b143bf93cbb82c93b718f146cd4eea",
+  "metadata.json": "d9ec4515a6f79724a5974e4161e81ca4",
+  "spec/classes/init_spec.rb": "d3c692f0b77dd975f82f623ae0ac5be6",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "tests/init.pp": "d8bc223e4017d89b83ad7738659af8c1"
+}
