@@ -1,0 +1,13 @@
+{
+  "name": "chatwing-redis",
+  "version": "0.1.1",
+  "author": "chatwing",
+  "summary": "redis install from source",
+  "license": "Apache 2.0",
+  "source": "https://github.com/toandevops/chatwing",
+  "project_page": "https://github.com/toandevops/chatwing",
+  "issues_url": "https://github.com/toandevops/chatwing/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
