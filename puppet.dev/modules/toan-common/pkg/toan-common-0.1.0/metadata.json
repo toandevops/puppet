@@ -1,0 +1,13 @@
+{
+  "name": "toan-common",
+  "version": "0.1.0",
+  "author": "toandoan",
+  "summary": "common packages",
+  "license": "Apache 2.0",
+  "source": "https://github.com/toandevops/puppet/",
+  "project_page": "https://github.com/toandevops/puppet/",
+  "issues_url": "https://github.com/toandevops/puppet/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
