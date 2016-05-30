@@ -17,6 +17,7 @@ node 'node2.lab.com'{
 	include redis
 	include sample_api
 }
+<<<<<<< HEAD
 
 class order {
      	contain common
@@ -33,3 +34,5 @@ class order {
 	Class['sample_api']->
 	Class['modules']
 }
+=======
+>>>>>>> 90833641cc1d22697eb9dc22c8f35ce765208405

@@ -3,11 +3,19 @@ class redis::wrapper::redis {
 	exec { 'create_dir_redis':
 	  command => '/usr/bin/mkdir -p /etc/puppet/modules/redis/files',
 	  creates => '/etc/puppet/modules/redis/files',
+<<<<<<< HEAD
 	  before  => File['/etc/puppet/modules/redis/files/redis-3.2.0.tar.gz'],
 	}
 	file {'/etc/puppet/modules/redis/files/redis-3.2.0.tar.gz':
 	  ensure => 'present',
 	  source => 'puppet:///install_files/redis-3.2.0.tar.gz',
+=======
+	  before  => File['/etc/puppet/modules/redis/files/redis-3.2.0.tar'],
+	}
+	file {'/etc/puppet/modules/redis/files/redis-3.2.0.tar':
+	  ensure => 'present',
+	  source => 'puppet:///install_files/redis-3.2.0.tar',
+>>>>>>> 90833641cc1d22697eb9dc22c8f35ce765208405
 	  before => Class['redis_install'],
 	}
   }
@@ -23,7 +31,11 @@ class redis::wrapper::redis {
 	  before => Exec['uncompress_redis'],
 	}
 	exec { 'uncompress_redis':
+<<<<<<< HEAD
 	  command => '/usr/bin/tar -xf /etc/puppet/modules/redis/files/redis-3.2.0.tar.gz -C /etc/puppet/modules/redis/files/',
+=======
+	  command => '/usr/bin/tar -xf /etc/puppet/modules/redis/files/redis-3.2.0.tar -C /etc/puppet/modules/redis/files/',
+>>>>>>> 90833641cc1d22697eb9dc22c8f35ce765208405
 	  creates => '/etc/puppet/modules/redis/files/redis-3.2.0',
 	  before => Exec['make_redis'],
 	}
